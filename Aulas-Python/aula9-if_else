@@ -1,0 +1,34 @@
+# Crie um programa que receba a nota de uma pessoa
+# imprima "Aprovado". Caso a nota seja maior ou igual
+# a 7.0. Caso contrário imprima "Reprovado".
+
+print("\nNote of Math!\n")
+
+note = float(input("Enter your note of math: "))
+
+if note >= 7.0:
+    print("\nApproved =)\n")
+else:
+    print("\nReproved =(\n")
+
+
+'''
+Crie um programa que receba o nome e a idade 
+de uma pessoa. Caso a idade seja maior ou igual
+a 18, imprima o nome da pessoa e informe, que ela é
+maior de idade. Caso contrário, não imprimir o nome e  
+informar que a pessoa é menor de idade.
+
+'''
+
+print("\nMaior de Idade ou Não?\n")
+
+name = input("Digite seu nome: ")
+
+age = int(input("\nDigite sua idade: "))
+
+if age >= 18:
+    print(f"\n{name} tem {age} anos portanto é *MAIOR* de idade.\n")
+else:
+    print(f"\nA pessoa tem {age} anos, portanto é *MENOR* de idade.\n")
+
